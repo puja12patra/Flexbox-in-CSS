@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main1 {
+            width: 400px;
+            height: 100px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+            justify-content: center;
+        }
+
+        #main1 div {
+            width: 70px;
+            height: 70px;
+        }
+
+        #main2 {
+            width: 220px;
+            height: 300px;
+            border: 1px solid black;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        #main2 div {
+            flex: 1;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+        }
+
+        #flex-container {
+            border: 1px solid black;
+            background-color: rgb(255, 230, 251);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px 70px;
+        }
+
+        #flex-container>div {
+            border: 1px solid black;
+            width: 10%;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+
+        #main3 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        #main3 div {
+            width: 50px;
+            height: 50px;
+        }
+
+        #main4 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #main4 div {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<!-- Q2. Explain the role of the following key properties in the Flexbox layout model
+1. justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap -->
+
+<body>
+    <h3>key properties in the Flexbox layout model</h3>
+    <ol>
+        <li>
+            <h4>justify-content</h4>
+            <p> Two axis is there - one is main or x-axis (used horizontally) and the other is cross-axis or
+                y-axisn(used
+                vertically).
+                The justify-content is a flex property which is used to align the items along the main-axis of a
+                flex container.
+                <br>justify-content can have different values :
+                justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;
+            </p>
+            <div id="main1">
+                <div style="background-color:coral;">1</div>
+                <div style="background-color:lightblue;">2</div>
+                <div style="background-color:pink;">3</div>
+            </div>
+        </li>
+        <li>
+            <h4>align-items</h4>
+            <p> The align-items is a flex property which is used to align the items along the cross-axis of a
+                flex container (which is vertical by default).<br>align-items can have different values :
+                align-items: normal|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;</p>
+
+            <div id="main2">
+                <div style="background-color:coral;min-height:30px;">RED</div>
+                <div style="background-color:lightblue;min-height:50px;">BLUE</div>
+                <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+            </div>
+        </li>
+        <li>
+            <h4>gap</h4>
+            <p>The gap property defines the size of the gap between the rows and between the columns in flexbox</p>
+            Two gap values are there -
+            <ul>
+                <li>row-gap</li>
+                <li>column-gap</li>
+            </ul>
+            <div id="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+        </li>
+        <li>
+            <h4>flex-direction</h4>
+            <p>The flex-direction property specifies the direction of the flex items.
+                <br>flex-direction can have different values :flex-direction:
+                row|row-reverse|column|column-reverse|initial|inherit;
+            </p>
+            <div id="main3">
+
+                <div style="background-color:lightblue;">A</div>
+
+                <div style="background-color:pink;">B</div>
+
+                <div style="background-color:lightgreen;">C</div>
+            </div>
+        </li>
+        <li>
+            <h4>flex-wrap</h4>
+            <p>The flex-wrap property specifies whether the flex items should wrap or not.
+                <br>flex-wrap can have different values : flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
+            </p>
+            <div id="main4">
+                <div style="background-color:coral;">A</div>
+                <div style="background-color:lightblue;">B</div>
+                <div style="background-color:pink;">C</div>
+                <div style="background-color:lightgrey;">D</div>
+                <div style="background-color:lightgreen;">E</div>
+              </div>
+
+        </li>
+    </ol>
+
+</body>
+
+</html>

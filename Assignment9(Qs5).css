@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Nunito+Sans:opsz@6..12&display=swap");
+
+
+.outerSec{
+    background-color: rgb(248, 247, 247);
+    height: 600px;
+    width:980px;
+    border: 2px solid black;
+    display: flex;
+   
+}
+.formSec{
+   background-color: white;
+    width:580px;
+    height:600px;
+    position: relative;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imgSec{
+   
+    background-repeat: no-repeat;
+    width:400px;
+    height:600px;
+  
+}
+.imgSec img{
+    width:385px;
+    height:585px;
+}
+
+.logoSec{
+    height: 70px;
+    width:140px;
+    
+    position: absolute;
+    top: 20px;
+    left:40px;
+}
+.logoSec img
+{
+    max-height: 70px;
+    max-width: 70px;
+   
+   
+}
+.navSec
+{
+    
+    position: absolute;
+    top: 30px;
+    left: 334px;
+}
+.firstSec{
+display: flex;
+flex-direction: row;
+justify-content: end;
+margin-right: 25px;
+margin-top: 0px;
+gap: 20px;
+}
+.firstSec p{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+   font-weight: bold;
+}
+.secondSec{
+display: flex;
+flex-direction: row;
+justify-content: end;
+gap: 10px;
+margin-right:20px ;
+margin-top: 0px;
+
+}
+button{
+    border:1px solid lightgray;
+    border-radius: 3px;
+    height: 20px;
+   font-family: 'Inter', sans-serif;
+   font-size: 10px;
+   font-weight: bold;
+  
+}
+#bt1{
+    background-color:rgb(247, 137, 11);
+    color: white;
+}
+.header{
+width:438px;
+height:100px;
+position:absolute;
+top: 151px;
+left: 40px;
+}
+.indian_railways
+{
+width: 300px;
+height: 30px;
+
+top: 200px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+margin: 0px;
+font-size: 25px;
+
+}
+.safety{
+    padding: 0px;
+    margin-bottom: 0px;
+    color:#01BB0A;
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .h2color{
+    color:#FB792B ;
+ }
+ .h3color{
+    color:#213D77;
+ }
+ .middleSec{
+display: flex;
+
+align-items: flex-start;
+gap: 10px;
+position: absolute;
+
+top: 246px;
+left: 40px;
+
+color: #14274d;
+font-size: 14px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+}
+#bookticket{
+    background-color: #213D77;
+    height: 20px;
+    color: white;
+    padding: 5px;
+   border-radius: 2px;
+   text-align: center;
+}
+#pnr_status{
+ border: 1px solid lightgray;
+ height: 20px;
+ padding: 5px;
+ border-radius: 2px;
+ text-align: center;
+}
+#chart_vacancy
+{
+    border: 1px solid lightgray;
+    height: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+
+
+.search_trains {
+
+position:absolute;
+top: 500px;
+left: 40px;
+margin-right: 0px;
+}
+.search_trains button
+{
+    width:480px;
+    height:50px;
+    background-color: #01BB0A;
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.from_to{
+    width:480px;
+    height:75px;
+    display: flex;
+   
+    position: relative;
+    top: 300px;
+    left:40px;
+    font-size: 14px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+.train_img1
+{
+    position: absolute;
+    top: 21px;
+    left: 36px;
+}
+.from{
+    position: absolute;
+    top: 5px;
+    left: 91px;
+    font-size:14px;
+}
+
+.bangalore
+{
+    position: absolute;
+    top: 25px;
+    left: 88px;
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}   
+.ksr_bangalore
+{
+    position: absolute;
+    top: 50px;
+    left: 87px;
+    font-size:10px;
+}
+.From_To_img
+{
+    position: absolute;
+    top: 22px;
+    left: 223px;
+}
+.train_img2
+{
+    position: absolute;
+    top: 21px;
+    left: 295px;
+}
+
+.to
+{
+    position: absolute;
+    top: 7px;
+    left: 341px;
+    font-size:14px;
+}
+.kasaragod
+{
+    position: absolute;
+    top: 25px;
+    left: 341px;
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.ksd_kasaragod
+{
+    position: absolute;
+    top: 50px;
+    left: 341px;
+    font-size:10px;
+}
+.date_class_seattype{
+    width:480px;
+    height:75px;
+    display: flex;
+    position: relative;
+    top: 310px;
+    left:40px;
+    font-size: 14px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+.calender{
+    position: absolute;
+    top: 21px;
+    left: 36px;  
+}
+.date{
+    position: absolute;
+    top: 8px;
+    left: 91px;
+    font-size:14px;
+
+}
+.time{
+    position: absolute;
+    top: 26px;
+    left: 81px;
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.tuesday
+{
+    position: absolute;
+    top: 50px;
+    left: 87px;
+    font-size:10px;
+}
+.class{
+    position: absolute;
+    top: 22px;
+    left: 196px;
+}
+.class_dropdown
+{
+    position: absolute;
+    top: 9px;
+    left: 230px;
+}
+.class_3A
+{
+    position: absolute;
+        top: 30px;
+    left: 230px;
+}
+.class_ac_3_tier
+{
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    font-size:10px;
+}
+
+.seat_type_img{
+    position: absolute;
+    top: 21px;
+    left: 306px;
+}
+.seat_type{
+    position: absolute;
+    top: 8px;
+    left: 350px;
+    font-size:14px;
+}
+.tatkal
+{
+    position: absolute;
+    top: 26px;
+    left: 350px;
+    font-size:18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.ac_3_tier{
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .from_to_with_img
+{
+    width:100px;
+    height:70px; 
+    position: absolute;
+    display: flex;
+   flex-direction: row;
+
+}
+
+
+ .train_img{
+    justify-self: flex-end;
+    align-self: center;
+}
+.from_to_1st{
+    background-color: #01BB0A;
+display: flex;
+flex-direction: column;
+font-size: 12px;
+
+
+}
+ .from_to_middle{
+background-color: #213D77;
+justify-self: center;
+align-self: center;
+
+
+} 
+.from_to_last{
+background-color: rgb(231, 24, 34);
+display: flex;
+flex-direction: column;
+font-size: 12px;
+
+}  
+ */
+

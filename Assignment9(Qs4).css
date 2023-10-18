@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Oswald&family=Playfair+Display:ital@1&display=swap");
+
+
+#card{
+    background-color: rgb(248, 247, 247);
+    height: 500px;
+    width:900px;
+    border: 2px solid rgb(119, 113, 113);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 25px;
+   }
+   .card1,.card2, .card3{
+      height: 310px;
+      width:210px;
+     border-radius: 10px;
+     padding: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     font-family: 'Nunito Sans', sans-serif;
+   }
+   .card1,.card3{
+    background-color:white
+   }
+   .card2{
+    background-color: rgb(24, 24, 70);
+    color: white;
+   }
+   h2{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size:25px;
+   }
+   p{
+    font-size: medium;
+    margin: 0px;
+    margin-left: 20px;
+   }
+   span{
+    font-size:30px;
+    margin-right: 80px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+   }
+   button{
+   width: 160px;
+   height: 40px;
+   border-radius: 25px;
+   border-width: 0px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 200px;
+   margin-left: 25px;
+   }
+   .bt1, .bt3{
+    background-color: rgb(24, 24, 70);
+    color: white;
+   
+   }
+  .list-item{
+    text-align: left;
+    margin-left: 20px;
+    margin-top:10px ;
+  }
+  
